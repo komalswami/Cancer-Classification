@@ -1,4 +1,6 @@
-#This is intro to keras syntax basics
+This repo contain small project using keras.
+
+#intro to keras syntax basics
 Choosing an optimizer and loss
 Keep in mind what kind of problem you are trying to solve:
 
@@ -24,3 +26,4 @@ Batch: a set of N samples. The samples in a batch are processed independently, i
 Epoch: an arbitrary cutoff, generally defined as "one pass over the entire dataset", used to separate training into distinct phases, which is useful for logging and periodic evaluation.
 When using validation_data or validation_split with the fit method of Keras models, evaluation will be run at the end of every epoch.
 Within Keras, there is the ability to add callbacks specifically designed to be run at the end of an epoch. Examples of these are learning rate changes and model checkpointing (saving).
+
